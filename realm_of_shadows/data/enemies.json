@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Rat",
+    "hp": 15,
+    "attack": 4,
+    "defense": 1,
+    "xp": 8,
+    "gold": 3,
+    "description": "A mangy sewer rat with glowing red eyes."
+  },
+  {
+    "name": "Goblin",
+    "hp": 30,
+    "attack": 8,
+    "defense": 3,
+    "xp": 15,
+    "gold": 10,
+    "description": "A sneaky goblin wielding a rusty dagger."
+  },
+  {
+    "name": "Skeleton",
+    "hp": 45,
+    "attack": 12,
+    "defense": 5,
+    "xp": 25,
+    "gold": 18,
+    "description": "An animated skeleton clad in ancient armor."
+  },
+  {
+    "name": "Dark Mage",
+    "hp": 35,
+    "attack": 18,
+    "defense": 4,
+    "xp": 35,
+    "gold": 30,
+    "description": "A hooded mage crackling with dark energy."
+  },
+  {
+    "name": "Troll",
+    "hp": 70,
+    "attack": 15,
+    "defense": 10,
+    "xp": 45,
+    "gold": 35,
+    "description": "A massive troll blocking the passage."
+  },
+  {
+    "name": "Wraith",
+    "hp": 50,
+    "attack": 20,
+    "defense": 6,
+    "xp": 50,
+    "gold": 40,
+    "description": "A ghostly wraith drifting through the darkness."
+  },
+  {
+    "name": "Shadow Dragon",
+    "hp": 120,
+    "attack": 28,
+    "defense": 14,
+    "xp": 150,
+    "gold": 100,
+    "description": "A fearsome dragon wreathed in living shadows. The final guardian."
+  }
+]

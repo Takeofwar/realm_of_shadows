@@ -1,0 +1,336 @@
+{
+  "save_info": {
+    "slot_name": "autosave",
+    "timestamp": "2026-06-04 21:26:40",
+    "player_name": "Bora",
+    "player_level": 2
+  },
+  "player": {
+    "name": "Bora",
+    "hp": 95,
+    "max_hp": 115,
+    "attack": 13,
+    "defense": 7,
+    "level": 2,
+    "xp": 228,
+    "gold": 337,
+    "mana": 35,
+    "max_mana": 35,
+    "inventory": [
+      {
+        "name": "Small Potion",
+        "description": "A small vial of red liquid.",
+        "value": 5,
+        "item_type": "potion",
+        "heal_amount": 20
+      },
+      {
+        "name": "Fire Bolt",
+        "description": "A bolt of searing flame.",
+        "value": 20,
+        "item_type": "spell",
+        "power": 12,
+        "mana_cost": 8
+      },
+      {
+        "name": "Small Potion",
+        "description": "A small vial of red liquid.",
+        "value": 5,
+        "item_type": "potion",
+        "heal_amount": 20
+      },
+      {
+        "name": "Small Potion",
+        "description": "A small vial of red liquid.",
+        "value": 5,
+        "item_type": "potion",
+        "heal_amount": 20
+      },
+      {
+        "name": "Large Potion",
+        "description": "A large bottle of potent medicine.",
+        "value": 30,
+        "item_type": "potion",
+        "heal_amount": 80
+      },
+      {
+        "name": "Iron Axe",
+        "description": "A solid axe forged from iron.",
+        "value": 25,
+        "item_type": "weapon",
+        "power": 10
+      },
+      {
+        "name": "Lightning Strike",
+        "description": "A devastating bolt of lightning.",
+        "value": 50,
+        "item_type": "spell",
+        "power": 28,
+        "mana_cost": 20
+      },
+      {
+        "name": "Large Potion",
+        "description": "A large bottle of potent medicine.",
+        "value": 30,
+        "item_type": "potion",
+        "heal_amount": 80
+      }
+    ],
+    "equipped_weapon": {
+      "name": "Shadow Blade",
+      "description": "A dark blade that seems to absorb light.",
+      "value": 80,
+      "item_type": "weapon",
+      "power": 22
+    },
+    "visited_rooms": [
+      "boss_room",
+      "corridor_1",
+      "treasury",
+      "corridor_2",
+      "altar",
+      "crypt",
+      "armory",
+      "entrance",
+      "hall"
+    ]
+  },
+  "dungeon": {
+    "rooms": {
+      "entrance": {
+        "room_id": "entrance",
+        "name": "Dungeon Entrance",
+        "description": "You stand at the entrance of a dark, foreboding dungeon. Cold air seeps from the depths below. Torches flicker on the walls.",
+        "exits": {
+          "north": "corridor_1"
+        },
+        "enemies": [],
+        "items": [],
+        "is_boss_room": false,
+        "is_exit": false
+      },
+      "corridor_1": {
+        "room_id": "corridor_1",
+        "name": "Narrow Corridor",
+        "description": "A narrow stone corridor stretches ahead. The walls are damp and covered in moss. You hear scratching sounds nearby.",
+        "exits": {
+          "north": "hall",
+          "south": "entrance",
+          "east": "armory"
+        },
+        "enemies": [
+          {
+            "name": "Rat",
+            "hp": 0,
+            "max_hp": 0,
+            "attack": 4,
+            "defense": 1,
+            "xp": 8,
+            "gold": 3,
+            "description": "A mangy sewer rat with glowing red eyes."
+          }
+        ],
+        "items": [],
+        "is_boss_room": false,
+        "is_exit": false
+      },
+      "armory": {
+        "room_id": "armory",
+        "name": "Abandoned Armory",
+        "description": "Rusted weapons line the walls of this old armory. Most are useless, but something catches your eye...",
+        "exits": {
+          "west": "corridor_1"
+        },
+        "enemies": [],
+        "items": [],
+        "is_boss_room": false,
+        "is_exit": false
+      },
+      "hall": {
+        "room_id": "hall",
+        "name": "Great Hall",
+        "description": "A vast hall with crumbling pillars. Bones litter the floor. Multiple passages lead deeper into the dungeon.",
+        "exits": {
+          "south": "corridor_1",
+          "west": "library",
+          "north": "corridor_2",
+          "east": "treasury"
+        },
+        "enemies": [
+          {
+            "name": "Goblin",
+            "hp": 0,
+            "max_hp": 0,
+            "attack": 8,
+            "defense": 3,
+            "xp": 15,
+            "gold": 10,
+            "description": "A sneaky goblin wielding a rusty dagger."
+          }
+        ],
+        "items": [],
+        "is_boss_room": false,
+        "is_exit": false
+      },
+      "library": {
+        "room_id": "library",
+        "name": "Ancient Library",
+        "description": "Dusty bookshelves tower to the ceiling. Most books have crumbled to dust, but a faint magical glow emanates from one corner.",
+        "exits": {
+          "east": "hall"
+        },
+        "enemies": [],
+        "items": [
+          {
+            "name": "Fire Bolt",
+            "description": "A bolt of searing flame.",
+            "value": 20,
+            "item_type": "spell",
+            "power": 12,
+            "mana_cost": 8
+          },
+          {
+            "name": "Ice Shard",
+            "description": "A razor-sharp shard of ice.",
+            "value": 30,
+            "item_type": "spell",
+            "power": 18,
+            "mana_cost": 12
+          }
+        ],
+        "is_boss_room": false,
+        "is_exit": false
+      },
+      "treasury": {
+        "room_id": "treasury",
+        "name": "Hidden Treasury",
+        "description": "Gold coins and precious gems are scattered across a stone table. It seems too good to be true...",
+        "exits": {
+          "west": "hall"
+        },
+        "enemies": [
+          {
+            "name": "Skeleton",
+            "hp": 0,
+            "max_hp": 0,
+            "attack": 12,
+            "defense": 5,
+            "xp": 25,
+            "gold": 18,
+            "description": "An animated skeleton clad in ancient armor."
+          }
+        ],
+        "items": [],
+        "is_boss_room": false,
+        "is_exit": false
+      },
+      "corridor_2": {
+        "room_id": "corridor_2",
+        "name": "Dark Passageway",
+        "description": "The air grows colder as you descend deeper. Shadows seem to move on their own. A faint chanting echoes from ahead.",
+        "exits": {
+          "south": "hall",
+          "north": "crypt",
+          "east": "altar"
+        },
+        "enemies": [
+          {
+            "name": "Dark Mage",
+            "hp": 0,
+            "max_hp": 0,
+            "attack": 18,
+            "defense": 4,
+            "xp": 35,
+            "gold": 30,
+            "description": "A hooded mage crackling with dark energy."
+          }
+        ],
+        "items": [],
+        "is_boss_room": false,
+        "is_exit": false
+      },
+      "altar": {
+        "room_id": "altar",
+        "name": "Sacrificial Altar",
+        "description": "A blood-stained altar sits at the center of this circular room. Dark runes glow on the floor.",
+        "exits": {
+          "west": "corridor_2"
+        },
+        "enemies": [
+          {
+            "name": "Wraith",
+            "hp": 0,
+            "max_hp": 0,
+            "attack": 20,
+            "defense": 6,
+            "xp": 50,
+            "gold": 40,
+            "description": "A ghostly wraith drifting through the darkness."
+          }
+        ],
+        "items": [],
+        "is_boss_room": false,
+        "is_exit": false
+      },
+      "crypt": {
+        "room_id": "crypt",
+        "name": "Underground Crypt",
+        "description": "Ancient tombs line the walls. The path narrows ahead as you approach the heart of the dungeon.",
+        "exits": {
+          "south": "corridor_2",
+          "north": "boss_room"
+        },
+        "enemies": [
+          {
+            "name": "Troll",
+            "hp": 0,
+            "max_hp": 0,
+            "attack": 15,
+            "defense": 10,
+            "xp": 45,
+            "gold": 35,
+            "description": "A massive troll blocking the passage."
+          }
+        ],
+        "items": [],
+        "is_boss_room": false,
+        "is_exit": false
+      },
+      "boss_room": {
+        "room_id": "boss_room",
+        "name": "Dragon's Lair",
+        "description": "A massive cavern opens before you. The heat is overwhelming. In the center, a Shadow Dragon raises its head and fixes its burning eyes upon you. This is the final challenge.",
+        "exits": {
+          "south": "crypt",
+          "north": "exit_room"
+        },
+        "enemies": [
+          {
+            "name": "Shadow Dragon",
+            "hp": 0,
+            "max_hp": 0,
+            "attack": 28,
+            "defense": 14,
+            "xp": 150,
+            "gold": 100,
+            "description": "A fearsome dragon wreathed in living shadows. The final guardian."
+          }
+        ],
+        "items": [],
+        "is_boss_room": true,
+        "is_exit": false
+      },
+      "exit_room": {
+        "room_id": "exit_room",
+        "name": "Dungeon Exit",
+        "description": "Sunlight floods through a gap in the rocks. You can see the sky! You have conquered the Realm of Shadows!",
+        "exits": {},
+        "enemies": [],
+        "items": [],
+        "is_boss_room": false,
+        "is_exit": true
+      }
+    },
+    "current_room_id": "crypt"
+  }
+}
