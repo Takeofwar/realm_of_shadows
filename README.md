@@ -8,6 +8,7 @@ A text-based dungeon crawler RPG written in Python. Explore a dark dungeon, figh
 - **Language**: Python 3.8+
 - **Dependencies**: None (uses only Python standard library)
 - **Type**: Console / CLI application
+- This project coded with AI Asistant (Claude Code/Antigravity)
 
 ## 🎮 How to Play
 
